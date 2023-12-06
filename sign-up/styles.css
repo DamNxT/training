@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #A150F1;
+}
+.content-sign{    
+    width: 450px;
+    height: 40rem;
+    background: transparent;
+    backdrop-filter: (20px);
+    border: 2px solid rgba(255, 255, 255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px black;
+    color: #333;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.content-sign h1{    
+    font-size: 46px;
+    color: #FFF;
+}
+.registered p,a{    
+    color: #FFF;
+    text-decoration: none;
+}
+.registered a{
+    font-size: 1.25rem;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.registered a:hover{
+    text-decoration: underline;
+}
+form input{
+    display: flex;
+    justify-content: center;
+}
+.content-sign .input-box{    
+    position: relative;
+    width: 80%;
+    height: 50px;     
+    margin: 30px 0;
+    margin-left: 2rem;
+}
+.input-box input{
+    margin-left: 1rem;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size:16px ;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+input-box input::placeholder{
+    color:#fff
+}
+.input-box i{    
+    border: 4px solid rgb(255,255,255);
+    border-radius: 50%;
+    background: #FFF;
+    width: 35px;
+    height: auto;    
+    position:absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.content-sign button{    
+    width: 25%;
+    height: 2rem;
+    border: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #3B0075;
+    color: #FFF;    
+    font-weight: bold;    
+}
+/* 
+    Não finalizado
+.a{
+    perspective:1000px;
+    text-align:center;    
+  }
+  
+  .b{
+    position: absolute;
+    top: 20vh;
+    right: 200px;
+    width:100px;
+    background:gold;
+    height:100px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+   }
+  */
